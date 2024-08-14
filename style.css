@@ -1,0 +1,81 @@
+body {
+    background-color: #0D1117;
+    border: 1px solid #30363D;
+    border-radius: 5px;
+    max-width: 800px;
+    padding: 50px;
+}
+
+nav a, a:hover, a:visited {
+    border: 1px solid #30363D;
+    border-radius: 5px;
+    color: #E6EDF3;
+    font-size: 14px;
+    font-family: "Segoe UI";
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background: #161B20;
+}
+
+h1, h2, h3, p, ul, li, tr, th {
+    color: #E6EDF3;
+    font-family: "Segoe UI";
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+b {
+    font-weight: 600;
+}
+
+hr {
+    color: #262B32;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #30363D;
+    padding: 8px;
+    margin: -1px;
+}
+
+th {
+    font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #0D1117; /* Light gray background for even rows */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #161B22; /* White background for odd rows */
+}
+
+
+
+
+/* Mobiili */
+@media only screen and (max-width: 800px) {
+
+    nav a, a:hover{
+        display: block;
+        padding: 5px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    
+}
